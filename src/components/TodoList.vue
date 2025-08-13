@@ -1,5 +1,6 @@
 <script setup>
-import { defineProps, defineEmits } from 'vue'
+// import { defineProps, defineEmits } from 'vue'
+// No need to import since they are compiler macros
 import TodoItem from './TodoItem.vue'
 
 const { todos } = defineProps({
